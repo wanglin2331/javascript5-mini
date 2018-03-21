@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function FoodItem () {
+export default function FoodItem ({foodItem}) {                 //destructure it from props
     return (
-        <p>{props.foodItem}</p>
+        <p>{foodItem}</p>
     )
 }
